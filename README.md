@@ -1,5 +1,5 @@
 # pkg
-My test package
+My first R package
 
 ## Installation
 
