@@ -2,7 +2,7 @@
 % Please edit documentation in R/Fun5.R
 \name{Fun5}
 \alias{Fun5}
-\title{Fun5}
+\title{A function for testing whether the sum of two numbers is greater than 5}
 \usage{
 Fun5(x, y)
 }
@@ -15,5 +15,8 @@ Fun5(x, y)
 a number
 }
 \description{
-Check if the total is > 5
+A really good test function.
+Perhaps the best function ever!
+
+A work of pure genius.
 }

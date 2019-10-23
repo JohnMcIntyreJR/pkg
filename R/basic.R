@@ -12,7 +12,6 @@
 #' add(5, 10)
 #' ## Can also use negative numbers
 #' add(-5, 10)
-#' add("A", "B")
 add = function (x, y) {
   if(!check_numeric(c(x,y))) stop ("Not numeric")
   return(x + y)

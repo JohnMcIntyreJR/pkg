@@ -24,5 +24,4 @@ A work of pure genius.
 add(5, 10)
 ## Can also use negative numbers
 add(-5, 10)
-add("A", "B")
 }
