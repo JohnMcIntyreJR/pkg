@@ -1,3 +1,4 @@
 #' @name example_data
-#' @description A table of 10 random number generated from unifrorm distributions
+#' @title Random number table
+#' @description A table of 20 random number generated from uniform distributions
 NULL
