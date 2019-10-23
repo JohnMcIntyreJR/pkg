@@ -1,5 +1,9 @@
-#' @title Fun5
-#' @description Check if the total is > 5
+#' @title A function for testing whether the sum of two numbers is greater than 5
+#'
+#' @description A really good test function.
+#' Perhaps the best function ever!
+#'
+#' A work of pure genius.
 #' @param x a number
 #' @param y another number
 #' @return a number
