@@ -5,6 +5,4 @@ cache: packages
 
 r_packages:
   - drat
-  - jrPackage
 
-before_install: R -e 'source("https://install-github.me/r-lib/remotes")'
