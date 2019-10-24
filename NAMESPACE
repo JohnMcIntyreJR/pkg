@@ -3,6 +3,7 @@
 export(Fun5)
 export(add)
 export(divide)
+export(investigate)
 export(multiply)
 export(subtract)
 export(times)
