@@ -12,8 +12,8 @@ LazyData: true
 RoxygenNote: 6.1.1
 Depends: R (>= 3.5.0)
 Imports: jrPackage
-Remotes: jr-packages/jrPackage
 Suggests: 
     knitr,
     testthat
 VignetteBuilder: knitr
+Additional_repositories: https://jr-packages.github.io/drat/
