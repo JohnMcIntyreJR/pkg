@@ -3,6 +3,7 @@
 language: R
 cache: packages
 
+# this is saying what R packages to install (from CRAN) on the CI runner
+# i.e things that are needed as part of the building/testing/deploying
 r_packages:
   - drat
-
