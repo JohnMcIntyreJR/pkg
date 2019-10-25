@@ -7,9 +7,7 @@
 investigate(values)
 }
 \arguments{
-\item{rating}{values}
-
-\item{count}{values}
+\item{values}{A vector of values}
 }
 \value{
 A tibble of numeric summaries and a histogram plot
@@ -19,8 +17,4 @@ A really good multi purpose function.
 Perhaps the best function ever!
 
 A work of pure genius.
-}
-\examples{
-investigate(movies$ratings)
-investigate(movies$duration)
 }

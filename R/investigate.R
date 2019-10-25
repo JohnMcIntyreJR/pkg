@@ -4,12 +4,11 @@
 #' Perhaps the best function ever!
 #'
 #' A work of pure genius.
-#' @param rating values
-#' @param count values
+#' @param values A vector of values
 #' @return A tibble of numeric summaries and a histogram plot
-#' @examples
-#' investigate(movies$ratings)
-#' investigate(movies$duration)
+#' @importFrom ggplot2 ggplot geom_histogram aes
+#' @import tibble
+#' @importFrom stats sd
 #' @export
 investigate = function(values) {
   g = ggplot(tibble(values = values)) +
