@@ -9,6 +9,9 @@
 #' @importFrom ggplot2 ggplot geom_histogram aes
 #' @import tibble
 #' @importFrom stats sd
+#' @examples
+#' investigate(movies$duration)
+#' investigate(movies$rating)
 #' @export
 investigate = function(values) {
   g = ggplot(tibble(values = values)) +

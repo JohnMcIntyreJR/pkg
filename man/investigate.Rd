@@ -18,3 +18,7 @@ Perhaps the best function ever!
 
 A work of pure genius.
 }
+\examples{
+investigate(movies$duration)
+investigate(movies$rating)
+}
