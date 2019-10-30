@@ -11,7 +11,7 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
 Depends: R (>= 3.5.0)
-Imports: jrPackage, ggplot2, tibble
+Imports: jrPackage, ggplot2, tibble, inteRgrate
 Suggests: 
     knitr,
     testthat
