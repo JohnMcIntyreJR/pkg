@@ -8,6 +8,9 @@ cache: packages
 r_packages:
   - drat
 
+r_github_packages:
+  - jumpingrivers/inteRgrate
+
 script:
   - Rscript -e "inteRgrate::check_pkg()"
   - Rscript -e "inteRgrate::check_r_filenames()"
