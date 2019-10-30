@@ -7,6 +7,7 @@ cache: packages
 # i.e things that are needed as part of the building/testing/deploying
 r_packages:
   - drat
+  - lintr
 
 r_github_packages:
   - jumpingrivers/inteRgrate
