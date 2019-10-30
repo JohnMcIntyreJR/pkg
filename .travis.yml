@@ -7,3 +7,11 @@ cache: packages
 # i.e things that are needed as part of the building/testing/deploying
 r_packages:
   - drat
+
+script:
+  - Rscript -e "inteRgrate::check_pkg()"
+  - Rscript -e "inteRgrate::check_r_filenames()"
+  - Rscript -e "inteRgrate::check_tidy_description()"
+  - Rscript -e "inteRgrate::check_lintr()"
+  - Rscript -e "inteRgrate::check_namespace()"
+
