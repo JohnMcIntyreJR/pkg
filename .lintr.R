@@ -1,0 +1,6 @@
+linters: with_defaults(
+  assignment_linter = NULL,
+  line_length_linter(100),
+  object_name_linter = NULL,
+  object_usage_linter = NULL
+)
