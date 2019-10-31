@@ -21,4 +21,4 @@ multiply = function(x, y) {
 #' @examples
 #' times(4, 3)
 #' times(-4, 2)
-times = function (x, y) multiply (x, y)
+times = function(x, y) multiply(x, y)

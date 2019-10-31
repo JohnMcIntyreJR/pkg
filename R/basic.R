@@ -12,9 +12,9 @@
 #' add(5, 10)
 #' ## Can also use negative numbers
 #' add(-5, 10)
-add = function (x, y) {
-  if(!check_numeric(c(x,y))) stop ("Not numeric")
+add = function(x, y) {
+  if (!check_numeric(c(x, y))) stop("Not numeric")
   return(x + y)
 }
 
-check_numeric = function (x) all (is.numeric(x))
+check_numeric = function(x) all(is.numeric(x))

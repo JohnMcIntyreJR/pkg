@@ -13,6 +13,6 @@
 #' ## Can also use negative numbers
 #' subtract(-5, 10)
 #' @export
-subtract = function (x, y) {
+subtract = function(x, y) {
   return(x - y)
 }
