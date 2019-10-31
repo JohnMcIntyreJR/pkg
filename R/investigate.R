@@ -7,7 +7,7 @@
 #' @param values A vector of values
 #' @return A tibble of numeric summaries and a histogram plot
 #' @importFrom ggplot2 ggplot geom_histogram aes
-#' @import tibble
+#' @importFrom tibble tibble
 #' @importFrom stats sd
 #' @examples
 #' investigate(movies$duration)
